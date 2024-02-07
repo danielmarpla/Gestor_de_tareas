@@ -115,6 +115,7 @@ main{
     padding-left: 8px;
     padding-top: 5px;
     margin-bottom: 25px;
+    resize: none;
 }
 #id_botonGuardar, #id_botonModificar{
     background-color: rgb(0, 44, 67);

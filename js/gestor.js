@@ -88,7 +88,9 @@ $(document).ready(function(){
     });
 
     //buscar en el titulo de las tareas
-    $('#id_botonBuscar').click(mostrarTareasBuscar)
+    //$('#id_buscar').on('change keyup paste',mostrarTareasBuscar);
+
+    $('#id_botonBuscar').click(mostrarTareasBuscar);
 
     //mostrar tareas segun prgreso
     $('#id_mostrarTodas').click(function(){
